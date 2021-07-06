@@ -1,5 +1,6 @@
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif; 
+    margin: 20px;
 }
 h1{
     font-size: 50px;
@@ -9,13 +10,20 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 50px;
+
+    
+}
+h2 {
+    font-weight: 800;
 }
 .half-width{
     width: 50%;
-    padding-left: 10%;
+    padding: 10px;
 }
 .half-width img{
     width: 85%;
+
 }
 .order-button{
     text-decoration: none;
@@ -25,3 +33,44 @@ section{
     font-weight: 800;
     border-radius: 5px;
 }
+ .about-me{
+     background-image: url(7.png);
+ 
+ }
+ .pragraph {
+     padding:10px 200px 20px 200px;
+ }
+ #hedding {
+    text-align: center;
+ }
+ .row {
+    
+ }
+ .col-md-4 {
+     margin: 15px;
+     width: 300px;
+     height: 400px;
+     border: rgb(222, 232, 233) 2px solid;
+     float: right;
+     padding: 20px;
+     border-radius: 20px;
+ }
+ .item-photo {
+     width: 300px;
+     height: 200px;
+     border-radius: 10px;
+ }
+ .colorfooter {
+     color: darkorange;
+ }
+ .footerbio {
+    text-align: center;
+    background-color: black;
+    height: 150px;
+ }
+ .networkcolor {
+     color: white;
+ }
+ .lastletter {
+     color: white;
+ }
